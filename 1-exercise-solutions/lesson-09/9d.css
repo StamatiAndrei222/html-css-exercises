@@ -1,0 +1,20 @@
+.card{
+  width: 320px;
+  background-color: rgb(35, 34, 34);
+}
+
+.first{
+  color: white;
+  padding-left: 12px;
+  padding-top: 12px;
+  font-size: 20px;
+  padding-bottom: 1px;
+  margin-bottom: 5px;
+}
+.second{
+  color: gray;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
