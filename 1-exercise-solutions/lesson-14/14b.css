@@ -1,0 +1,58 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 3000px;
+}
+
+.right-sidebar{
+  width: 100px;
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 0; 
+  right: 0;
+  bottom: 0;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal{
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  
+}
+
+.title{
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 8px;
+}
+
+.content{
+  margin-bottom: 12px;
+}
+
+.bottom{
+  background-color: rgb(219, 219, 219);
+  border-width: 1px;
+  border-style: solid;
+  border-width: solid;
+  padding: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 2px;
+}
